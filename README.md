@@ -5,7 +5,7 @@
 
 一:拉取代码
 ```shell
-git clone git@gitee.com:mfxhb/vue-ruoyiadmin-vue3.git
+git clone git@github.com:mfxhb/vue-admin-RuoyiUsev3.git
 ```
 
 一:启动前端
