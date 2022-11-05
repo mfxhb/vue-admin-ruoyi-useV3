@@ -1,0 +1,54 @@
+.box {
+  width: 200px;
+  height: 100px;
+}
+
+.custom-border {
+  border: 1px solid var(--el-border-color);
+}
+
+.custom-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-cap {
+  text-transform: capitalize;
+}
+
+.text-fw-primary {
+  font-weight: 700;
+  color: var(--el-color-primary);
+}
+
+.ht {
+  font-weight: 700;
+  color: var(--el-color-primary);
+  font-size: 20px;
+}
+
+.hd {
+  font-weight: 600;
+  color: teal;
+  font-size: 15px;
+}
+
+// 布局容器
+.common-layout .el-header,
+.common-layout .el-footer {
+  background-color: var(--el-color-primary-light-7);
+  color: var(--el-text-color-primary);
+  text-align: center;
+}
+.common-layout .el-main {
+  background-color: var(--el-color-primary-light-9);
+  color: var(--el-text-color-primary);
+  text-align: center;
+  height: 150px;
+}
+
+.common-layout .el-aside {
+  background-color: var(--el-color-primary-light-8);
+  color: var(--el-text-color-primary);
+  text-align: center;
+}
